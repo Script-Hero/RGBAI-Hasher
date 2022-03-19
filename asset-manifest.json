@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/RGBAI-Hasher/static/css/main.7e9c5cd2.css",
+    "main.js": "/RGBAI-Hasher/static/js/main.e9a1fb2e.js",
+    "static/js/787.305d7a08.chunk.js": "/RGBAI-Hasher/static/js/787.305d7a08.chunk.js",
+    "index.html": "/RGBAI-Hasher/index.html",
+    "main.7e9c5cd2.css.map": "/RGBAI-Hasher/static/css/main.7e9c5cd2.css.map",
+    "main.e9a1fb2e.js.map": "/RGBAI-Hasher/static/js/main.e9a1fb2e.js.map",
+    "787.305d7a08.chunk.js.map": "/RGBAI-Hasher/static/js/787.305d7a08.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7e9c5cd2.css",
+    "static/js/main.e9a1fb2e.js"
+  ]
+}

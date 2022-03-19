@@ -12,6 +12,15 @@ export default class App extends React.Component {
 
     this.onChange = this.onChange.bind(this);
     this.validate = this.validate.bind(this);
+
+    this.input = React.createRef();
+  }
+
+
+  componentDidMount(){
+    if (this.input.current) {
+      this.input.current.focus();
+    }
   }
 
   onChange(e){
@@ -28,7 +37,7 @@ export default class App extends React.Component {
   render(){
     return (
       <div id="body">
-        <div id="input-box-container"><input autofocus id='input-box' placeholder='Enter your Student ID' onChange={this.onChange}></input></div>
+        <div id="input-box-container"><input ref={this.input} id='input-box' placeholder='Enter your Student ID' onChange={this.onChange}></input></div>
 
         <div id="output-container">
           <h1 id="output" tooltip='Click to copy' onClick={() => {navigator.clipboard.writeText(md5(this.state.input))}}>{this.validate() ? md5(this.state.input) : ""}</h1>

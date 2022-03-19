@@ -9,9 +9,17 @@
   text-align: center;
   width: 60%;
   height:75px;
-  border-radius: 8px;
+  border-radius: 0px;
   border: 2px solid #2e075c;
+  border-top:none;
+  border-left:none;
+  border-right: none;
   font-size:24px;
+}
+
+#input-box:focus {
+  outline: none;
+
 }
 
 #output-box-container {

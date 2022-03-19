@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/RGBAI-Hasher/static/css/main.7e9c5cd2.css",
-    "main.js": "/RGBAI-Hasher/static/js/main.7c340a0e.js",
+    "main.css": "/RGBAI-Hasher/static/css/main.025c5a51.css",
+    "main.js": "/RGBAI-Hasher/static/js/main.a18f9640.js",
     "static/js/787.305d7a08.chunk.js": "/RGBAI-Hasher/static/js/787.305d7a08.chunk.js",
     "index.html": "/RGBAI-Hasher/index.html",
-    "main.7e9c5cd2.css.map": "/RGBAI-Hasher/static/css/main.7e9c5cd2.css.map",
-    "main.7c340a0e.js.map": "/RGBAI-Hasher/static/js/main.7c340a0e.js.map",
+    "main.025c5a51.css.map": "/RGBAI-Hasher/static/css/main.025c5a51.css.map",
+    "main.a18f9640.js.map": "/RGBAI-Hasher/static/js/main.a18f9640.js.map",
     "787.305d7a08.chunk.js.map": "/RGBAI-Hasher/static/js/787.305d7a08.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e9c5cd2.css",
-    "static/js/main.7c340a0e.js"
+    "static/css/main.025c5a51.css",
+    "static/js/main.a18f9640.js"
   ]
 }

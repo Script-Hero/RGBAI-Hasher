@@ -28,7 +28,7 @@ export default class App extends React.Component {
   render(){
     return (
       <div id="body">
-        <div id="input-box-container"><input id='input-box' placeholder='Enter your Student ID' onChange={this.onChange}></input></div>
+        <div id="input-box-container"><input autofocus id='input-box' placeholder='Enter your Student ID' onChange={this.onChange}></input></div>
 
         <div id="output-container">
           <h1 id="output" tooltip='Click to copy' onClick={() => {navigator.clipboard.writeText(md5(this.state.input))}}>{this.validate() ? md5(this.state.input) : ""}</h1>
